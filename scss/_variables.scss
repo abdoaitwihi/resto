@@ -1,8 +1,3 @@
-$cPrimary: #e04386;
-$cPrimaryLight: #fd82b1;
-$cPrimaryLight2: #ffbbd7;
-$cSecond: #444444;
-$cThird: #fff;
 // $cPrimary: #ff9b08;
 // $cPrimaryLight: #ffc56e;
 // $cPrimaryLight2: #ff9b08;
@@ -24,6 +19,14 @@ $cThird: #fff;
    --para2-size: 16px;
    --para3-size: 14px;
    --para4-size: 12px;
+
+   /* colors */
+   --c-primary: #e04386;
+   --c-primary-light: #fd82b1;
+   --c-primary-light-2: #ffbbd7;
+   --c-second: #444444;
+   --c-second-light: #444444;
+   --c-third: #fff;
 }
 @media only screen and (max-width: 992px) {
    :root {
@@ -48,6 +51,18 @@ $cThird: #fff;
       order: 2;
    }
 }
+/* 
+moods */
+[data-theme="happy"] {
+   /* colors */
+   --c-primary: #ff9b08;
+   --c-primary-light: #ffc56e;
+   --c-primary-light-2: #ff9b08;
+   --c-second: #444444;
+   --c-second-light: #777676;
+   --c-third: #fff;
+}
+
 /* headings */
 $h1Home: var(--h1-home);
 $h1S: var(--h1-size);
@@ -61,3 +76,14 @@ $p1S: var(--para1-size);
 $p2S: var(--para2-size);
 $p3S: var(--para3-size);
 $p4S: var(--para4-size);
+/* colors */
+$cPrimary: var(--c-primary);
+$cPrimaryLight: var(--c-primary-light);
+$cPrimaryLight2: var(--c-primary-light-2);
+$cSecond: var(--c-second);
+$cThird: var(--c-third);
+// $cPrimary: #e04386;
+// $cPrimaryLight: #fd82b1;
+// $cPrimaryLight2: #ffbbd7;
+// $cSecond: #444444;
+// $cThird: #fff;
